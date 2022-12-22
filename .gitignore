@@ -2,3 +2,8 @@
 .env
 __pycache__
 .gitignore
+
+
+**/*.exe
+**/*.webm
+**/*.mp3

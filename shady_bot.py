@@ -6,7 +6,7 @@ import os
 import requests, json
 from dotenv import load_dotenv
 import youtube_dl
-import YouTube
+import YouTube as YouTube
 
 
 
@@ -138,7 +138,7 @@ async def leave(ctx):
 
 
 @bot.command(name='play_song', help='To play song')
-async def play(ctx,url):
+async def play_song(ctx,url):
     try :
         server = ctx.message.guild
         voice_channel = server.voice_client
