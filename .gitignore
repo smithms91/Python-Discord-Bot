@@ -1,0 +1,3 @@
+# Dont upload these to GitHub
+.env
+__pycache__
