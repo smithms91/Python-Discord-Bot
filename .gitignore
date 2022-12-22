@@ -1,3 +1,4 @@
 # Dont upload these to GitHub
 .env
 __pycache__
+.gitignore
